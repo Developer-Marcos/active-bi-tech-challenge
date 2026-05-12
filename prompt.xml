@@ -14,12 +14,12 @@
     </instructions>
 
     <output_schema>
-        {
+        {{
             "type": "text",
             "text": "<your markdown-formatted response in pt-BR>",
             "source": "<document name or N/A>",
             "suggestions": ["<pergunta em pt-BR 1>", "<pergunta em pt-BR 2>", "<pergunta em pt-BR 3>"]
-        }
+        }}
     </output_schema>
 
     <few_shot_examples>
@@ -32,7 +32,7 @@
                 <user_question>Como foi o desempenho financeiro no terceiro trimestre e qual setor se destacou?</user_question>
             </input>
             <output>
-                {
+                {{
                     "type": "text",
                     "text": "### Desempenho Financeiro (Q3 2023)\n\nO trimestre apresentou um **crescimento sólido** com os seguintes destaques:\n\n* **Receita Total:** R$ 2.5 milhões (*Aumento de 15% em relação ao Q2*).\n* **Custos Operacionais:** R$ 800 mil (*Queda de 5%*).\n\n### Destaque Setorial\nO setor de **Marketing** foi o principal responsável pelos resultados positivos, liderando a aquisição de novos clientes.",
                     "source": "Relatório_Financeiro_Q3_2023.pdf",
@@ -41,7 +41,7 @@
                         "Quais ações de marketing trouxeram mais clientes?",
                         "Qual a projeção de receita para o Q4?"
                     ]
-                }
+                }}
             </output>
         </example>
     </few_shot_examples>
